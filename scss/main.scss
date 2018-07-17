@@ -8,13 +8,24 @@ body {
     background-color: white;
     color: black;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     //podłącz czcionkę
+}
+
+a {
+    color: black;
+}
+
+a:hover{
+    color: grey;
+    
 }
 
 .container {
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    //display: flex;
 }
 
 .page-header {
@@ -25,7 +36,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
     //position: relative;
 }
 
@@ -47,9 +58,35 @@ body {
         li {
             list-style: none;
             display: inline-block;
+            a {
+                text-decoration: none;
+            }
         }   
     }
 }
+@media (max-width: 450px) {
+    .page-nav-list ul {
+        display: none;
+    }
+}
+
+.hamburger {
+    display: none;
+    //position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px 18px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  @media all and (max-width: 450px) {
+    .hamburger {
+      display: block;
+    }
+  }
 
 // -------- główny slider ------------
 
@@ -59,8 +96,8 @@ body {
 
 .banner-slider {
     //position: absolute;
-    background-color: burlywood;
-    border: 3px solid blue;
+    
+    border: 3px solid black;
     height: 43em;
     width: 100%;
     padding: 25px;
@@ -85,10 +122,11 @@ body {
 .main-slider-news {
     //position: absolute;
     padding: 25px;
+    margin-top: 20px;
     height: 15em;
     width: 100%;
-    background-color: gainsboro;
-
+    border: 2px solid black;
+    
 }
 
 .main-slider-news-text {
@@ -106,9 +144,10 @@ body {
 .main-slider-gallery {
     //position: absolute;
     padding: 25px;
+    margin-top: 20px;
     height: 15em;
     width: 100%;
-    background-color: salmon;
+    border: 2px solid black;
 }
 
 .main-slider-gallery-text {
@@ -138,10 +177,46 @@ body {
 
 .page-footer-social-icons {
     list-style: none;
-    
-  
     li {
         display: inline-block;
+    }
+}
 
+.contact-form  {
+    padding: 25px;
+    height: 450px;
+    width: 50%;
+    border: 3px solid black;
+    text-align: center;
+    line-height: 1.8em;
+    //display: flex;
+    label {
+        font-size: 20px;
+        margin: 10px;
+        
+        input {
+        height: 50px;
+        width: 65%;
+        font-size: 18px;
+        }
+        textarea {
+            height: 100px;
+            width: 65%;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .contact-form {
+        border: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .banner-slider {
+        p {
+            display: none;
+        }
     }
 }
