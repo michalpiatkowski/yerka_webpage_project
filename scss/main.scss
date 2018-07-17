@@ -19,7 +19,6 @@ a {
 
 a:hover{
     color: grey;
-    
 }
 
 .container {
@@ -29,7 +28,7 @@ a:hover{
     //display: flex;
 }
 
-.page-header {
+.page-navigation {
 }
 
 // ----- nawigacja strony ---------
@@ -37,7 +36,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
     //position: relative;
 }
 
@@ -65,7 +64,8 @@ a:hover{
         }   
     }
 }
-@media (max-width: 450px) {
+
+@media (max-width: 530px) {
     .page-nav-list ul {
         display: none;
     }
@@ -80,14 +80,15 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.2);
     padding: 4px 18px;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 50%;
   }
   
-  @media all and (max-width: 450px) {
+  @media all and (max-width: 530px) {
     .hamburger {
       display: block;
     }
   }
+  
   .page-nav-submenu {
         li:hover {
             background-color:grey;
@@ -178,6 +179,14 @@ a:hover{
     }
 }
 
+.banner-slider-first {
+    
+    background: url("../img/banner/zimowa_fala.jpg");
+    //background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
 //------- główna treść ----------
 
 .main-content {
@@ -228,7 +237,7 @@ a:hover{
 }
 
 .page-footer {
-    background-color: lightblue;
+    background-color: white;
     
 }
 
@@ -289,4 +298,8 @@ a:hover{
             font-size: 20px;
         }
     }
+}
+
+.about_yerkaland, .paintings {
+    padding: 25px;
 }
