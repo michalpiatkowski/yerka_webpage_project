@@ -1,5 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+    } from 'react-router-dom';
+// import { AboutYerkaland } from '../about/about_yerkaland';
+// import { AboutYerka } from '../about/about_yerka';
 
 class Navigation extends React.Component {
     render() {
@@ -7,34 +16,34 @@ class Navigation extends React.Component {
                     <div className="container">
 
                         <div className="page-nav">
-                            <a href="index.html" className="page-logo">Yerkaland</a>
+                            <Link to="/" className="page-logo">Yerkaland</Link>
                             <div className="page-nav-list">
                                 <a href="#" className="hamburger"><i className="fas fa-bars"></i></a> 
                                
                                 <ul className="page-nav-menu">
                                     <li><a href="#">About</a>
                                         <ul className="page-nav-submenu">
-                                            <li><a href="#">Jacek Yerka</a></li>
-                                            <li><a href="./pages/about_yerkaland.html">Yerkaland</a></li>
+                                            <li><Link to='/about/jacek'>Jacek Yerka</Link></li>
+                                            <li><Link to='/about/yerkaland'>Yerkaland</Link></li>
                                         </ul>
                                     </li>
 
                                     <li><a href="#">Works</a>
                                         <ul className="page-nav-submenu">
-                                            <li><a href="pages/paintings.html">Paintings</a></li>
-                                            <li><a href="#">Pastels</a></li>
+                                            <li><Link to='/works/paintings'>Paintings</Link></li>
+                                            <li><Link to='/works/pastels'>Pastels</Link></li>
                                         </ul>
                                     </li>
 
                                     <li><a href="#">Purchase</a>
                                         <ul className="page-nav-submenu">
-                                            <li><a href="#">Order</a></li>
-                                            <li><a href="#">Future works</a></li>
+                                            <li><Link to='/purchase/order'>Order</Link></li>
+                                            <li><Link to='/purchase/future'>Future works</Link></li>
                                             <li><a href="https://galeria.agraart.pl/">Art shop</a></li>
                                         </ul>
                                     </li>
                                     
-                                    <li><a href="./pages/contact.html">Contact</a></li>
+                                    <li><Link to='/contact'>Contact</Link></li>
                                     <li><button>PL</button> <button>ENG</button></li>
                                 </ul>
                                                             

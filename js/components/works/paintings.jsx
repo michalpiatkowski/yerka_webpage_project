@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Paintings</title>
-    <link href="../css/main.css" rel="stylesheet">
-</head>
-<body>
-    <div class="paintings">
-        <div class="paintings-header">
+import React from 'react';
+
+class Paintings extends React.Component {
+    render() {
+        return  <div className="paintings">
+        <div className="paintings-header">
             <h1>Lorem ipsum</h1>
         </div>
-        <div class="paintings-text">
+        <div className="paintings-text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien non mauris posuere ullamcorper sit amet a magna. Nullam sapien eros, tempus ut eros in, aliquam gravida nisl.</p>
         </div>
-        <div class="paintings-images">
-                <div class="gallery cf">
+        <div className="paintings-images">
+                <div className="gallery cf">
                         <div>
                           <img src="../img/banner/barocco.JPG" />
                         </div>
@@ -57,5 +51,8 @@
                       
         </div>
     </div>
-</body>
-</html>
+    }
+}
+
+
+export {Paintings}
