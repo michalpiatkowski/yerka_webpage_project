@@ -4,6 +4,7 @@ import React from 'react';
 class Contact extends React.Component {
     render() {
         return <div className="contact-page">
+        <div className="container">
         <h1>Contact me</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius est arcu, non vestibulum diam elementum vitae. Proin consectetur ante et aliquet volutpat. </p>
         <div className="contact-form">
@@ -26,8 +27,10 @@ class Contact extends React.Component {
             <br />
             <input type="submit" value="Submit" className="contact-submit"/>
         </form>
+        
     </div>
     <p>Thank You for your Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est lacus, ornare vel elit commodo, dapibus imperdiet lectus. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+</div>
 </div>
     }
 }

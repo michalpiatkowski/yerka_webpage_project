@@ -3,6 +3,7 @@ import React from 'react';
 class Pastels extends React.Component {
     render() {
         return  <div className="paintings">
+        <div className="container">
         <div className="paintings-header">
             <h1>Lorem ipsum</h1>
         </div>
@@ -11,68 +12,68 @@ class Pastels extends React.Component {
         </div>
         <div className="pastels-images">
                 <div className="pastels-gallery">
-                        <div>
-                          <img src="../img/banner/barocco.JPG" />
-                          <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                          <img src="../img/banner/fatamorgana.jpg" />
-                          <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                          <img src="../img/banner/zimowa_fala.jpg" />
-                          <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/barocco.JPG" />
+                    <div>
+                        <img src="../img/pastels/żywopłoty.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/fatamorgana.jpg" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/hydroterapia.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/zimowa_fala.jpg" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/gameboy.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/barocco.JPG" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/fabrykazieleni.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/fatamorgana.jpg" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/enclave.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/zimowa_fala.jpg" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/aleja_sów.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/barocco.JPG" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/applemania.JPG" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/fatamorgana.jpg" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/autumn_at_madera.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                        <div>
-                        <img src="../img/banner/zimowa_fala.jpg" />
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/bardzotanielinie.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
-                          <br/>
-                        </div>
-                      </div>
-                      
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/country_wolves.jpg" />
+                        <h4>Lorem ipsum (1410)</h4>
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/dragons_breath.jpg" />
+                        <h4>Lorem ipsum (1410)</h4>
+                        <br/>
+                    </div>
+                    <div>
+                        <img src="../img/pastels/dżungla.jpg" />
+                        <h4>Lorem ipsum (1410)</h4>
+                        <br/>
+                    </div>
+              </div>    
+            </div>          
         </div>
     </div>
     }

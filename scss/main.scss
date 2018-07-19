@@ -13,14 +13,15 @@ body {
 
 h1 {
     font-family: 'Noto Serif', serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 40px;
+    margin-left: 10px;
 }
 
 p {
-    margin: 25px;
+    margin: 13px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 a {
@@ -34,7 +35,7 @@ a:hover{
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 0 auto;
     //display: flex;
 }
@@ -48,17 +49,18 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     //position: relative;
 }
 
 .page-logo {
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    //text-transform: uppercase;
     text-decoration: none;
-    padding: 15px;
+    padding: 25px;
 }
 
 .page-nav-list {
@@ -167,7 +169,7 @@ a:hover{
         text-decoration:none;
         padding: 0 5px;
     }
-  }
+}
 
 .flags {
     button {
@@ -206,15 +208,13 @@ a:hover{
             left: 50%;
             font-size: 35px;
             color: orange;
+            }     
         }
-        
     }
-}
 }
 
 .banner-slider {
     //position: absolute;
-    
     height: 43em;
     width: 100%;
     //padding: 25px;
@@ -251,13 +251,11 @@ a:hover{
 .banner-slider-second {
     //background: linear-gradient(transparent, black), url("../img/banner/barocco.jpg") no-repeat;
     //background-size: cover;
-    
 }
 
 .banner-slider-third {
     //background: linear-gradient(transparent, black), url("../img/banner/fatamorgana.jpg") no-repeat;
-   // background-size: cover;
-    
+   // background-size: cover; 
 }
 
 //------- główna treść ----------
@@ -280,29 +278,28 @@ a:hover{
 .main-slider-news-text {
     font-size: 28px;
 }
+
 .main-slider-news-arrows {
     text-align: right;
-
+    display: none;
 }
-.main-slider-news-photos{
-
-}
+.main-slider-news-photos{}
 
 .main-slider-news-photos-container {
     height: 25em;
     display: flex;
     .img-news {
-
         h3, h4 {
             text-align: center;
             margin: 0 auto;
+            color: grey;
             //display: none;
         }
-
         p {
             font-size: 16px;
             text-align: center;
             margin: 0 auto;
+            color: grey;
         }
         img{
             height: 300px;
@@ -312,8 +309,6 @@ a:hover{
         img:hover {
             filter: opacity(0.3);
             transition: 1s;
-            
-            
             }
         }
     }
@@ -358,14 +353,10 @@ a:hover{
             margin: -33% 35%;
             //display: none;
         }
-    }
-    
-    
+    }   
   }
 }
 */
-
-
 
 // ---------- SLIDER: galeria --------------
 
@@ -381,12 +372,8 @@ a:hover{
 .main-slider-gallery-text {
     font-size: 28px;
 }
-.main-slider-gallery-arrows {
-
-}
-.main-slider-gallery-photos { 
-    
-}
+.main-slider-gallery-arrows {}
+.main-slider-gallery-photos {}
 
 .main-slider-gallery-photos {
     display: flex;
@@ -407,7 +394,7 @@ a:hover{
         filter: brightness(0.5);
         transition: 1s;
     }
-    p{
+    p {
         color: white;
     }
   }
@@ -417,7 +404,6 @@ a:hover{
 
 .page-footer {
     background-color: white;
-    
 }
 
 .page-footer-el {
@@ -446,13 +432,12 @@ a:hover{
     text-align: center;
     line-height: 1.8em;
     //display: flex;
-    p{
+    p {
         text-align: left;
     }
     label {
         font-size: 20px;
         margin: 10px;
-        
         input {
         height: 50px;
         width: 65%;
@@ -489,11 +474,47 @@ a:hover{
     }
 }
 
-.about_yerkaland, .paintings {
+.about_yerkaland, .about_yerka, .paintings, .pastels, .contact-page  {
     padding: 25px;
 }
-//-----------gallery paintings --------------
 
+.about_yerkaland {
+    display: flex;
+    width: 100%;
+    
+    .about-yerkaland-photo-left {
+        padding: 25px;
+        width: 23rem;
+        height: 17em;
+        float: left;
+        margin-top: -21px;
+        margin-left: -20px;
+        
+    }
+
+    .about-yerkaland-photo-right {
+        padding: 25px;
+        width: 20em;
+        height: 17em;
+        float: right;
+        margin: 2px;
+        margin-top: -21px;
+        margin-left: -20px;
+    }
+
+
+    .about-yerkaland-photo-last {
+        padding: 25px;
+        width: 20em;
+        height: 17em;
+        float: left;
+        margin: 2px;
+        margin-top: -21px;
+        margin-left: -5px;
+    }
+}
+//-----------gallery paintings --------------
+/*
 .gallery {
     width: 640px;
     //width: 90%;
@@ -517,6 +538,7 @@ a:hover{
     width: 200px;
     transition: .1s transform;
     transform: translateZ(0); /* hack */
+/*
   }
   
   .gallery > div:hover {
@@ -537,16 +559,15 @@ a:hover{
   .cf:after {
     clear: both;
   }
-  
+  */
   //---- pastels gallery
 
 
 .pastels-gallery {
     width: 90%;
-    
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     
 
       img {
@@ -561,6 +582,6 @@ a:hover{
   }
 
   .pastels-gallery > div:hover > img {
-    transform: scale(1.8,1.8);
+    transform: scale(2.1,2.1);
     transition: 1s transform;
   }

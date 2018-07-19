@@ -13,7 +13,7 @@ class MainContent extends React.Component {
                     <div className="container">
 
                         <div className="main-slider-news">
-                            <div className="main-slider-news-text"></div>
+                            <div className="main-slider-news-text">News</div>
                             <div className="main-slider-news-arrows">
                             <a className="left_arrow" href="#"><img src="img/icons/arrow_left_32.png" /></a>
                             <a className="right_arrow" href="#"><img src="img/icons/arrow right_32.png"/></a>
@@ -40,7 +40,7 @@ class MainContent extends React.Component {
                         </div>
 
                         <div className="main-slider-gallery">
-                            <div className="main-slider-gallery-text"><Link to='/works/paintings'>Gallery</Link></div>
+                            <div className="main-slider-gallery-text"><Link to='/works/paintings'>Gallery of paintings</Link></div>
                             <div className="main-slider-gallery-arrows"></div>
                             <div className="main-slider-gallery-photos">
                             <section className="main-slider-gallery-photos-container">
