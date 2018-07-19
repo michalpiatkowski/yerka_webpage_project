@@ -1,4 +1,11 @@
 import React from 'react';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+    } from 'react-router-dom';
 
 class MainContent extends React.Component {
     render() {
@@ -12,21 +19,28 @@ class MainContent extends React.Component {
                             <a className="right_arrow" href="#"><img src="img/icons/arrow right_32.png"/></a>
                             </div>
                             
-                            <div className="main-slider-gallery-photos">
-                            <section className="main-slider-gallery-photos-container">
-                                    <img src="img/banner/fatamorgana.jpg" />
-                                   
+                            <div className="main-slider-news-photos">
+                            <section className="main-slider-news-photos-container">
+                           
+                                    <div className="img-news">
                                     <img src="img/banner/barocco.JPG" />
-                                    <img src="img/banner/zimowa_fala.jpg" />
+                                    <h3>Lorem ipsum</h3>
+                                    <h4>Lorem ipsum</h4>
+                                    <p>15 07 1410</p>
+                                    </div>
+                                  
+                                    <div className="img-news">
                                     <img src="img/banner/fatamorgana.jpg" />
-                                    <img src="img/banner/barocco.JPG" />
-                                    <img src="img/banner/zimowa_fala.jpg" />
+                                    <h3>Lorem ipsum</h3>
+                                    <h4>Lorem ipsum</h4>
+                                    <p>01 09 1939</p>
+                                    </div>
                             </section>
                             </div>
                         </div>
 
                         <div className="main-slider-gallery">
-                            <div className="main-slider-gallery-text"><a href="pages/paintings.html">Gallery</a></div>
+                            <div className="main-slider-gallery-text"><Link to='/works/paintings'>Gallery</Link></div>
                             <div className="main-slider-gallery-arrows"></div>
                             <div className="main-slider-gallery-photos">
                             <section className="main-slider-gallery-photos-container">

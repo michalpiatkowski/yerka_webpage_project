@@ -21,7 +21,7 @@ class Navigation extends React.Component {
                                 <a href="#" className="hamburger"><i className="fas fa-bars"></i></a> 
                                
                                 <ul className="page-nav-menu">
-                                    <li><a href="#">About</a>
+                                    <li><a href="">About</a>
                                         <ul className="page-nav-submenu">
                                             <li><Link to='/about/jacek'>Jacek Yerka</Link></li>
                                             <li><Link to='/about/yerkaland'>Yerkaland</Link></li>
