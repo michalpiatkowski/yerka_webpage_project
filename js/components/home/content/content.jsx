@@ -6,14 +6,22 @@ class MainContent extends React.Component {
                     <div className="container">
 
                         <div className="main-slider-news">
-                            <div className="main-slider-news-text">News</div>
-                            <div className="main-slider-news-arrows"></div>
-                            <div className="main-slider-news-photos">
-                                    <div className="news-photo"></div>
-                                    <div className="news-photo"></div>
-                                    <div className="news-photo"></div>
-                                    <div className="news-photo"></div>
-                                    <div className="news-photo"></div>
+                            <div className="main-slider-news-text"></div>
+                            <div className="main-slider-news-arrows">
+                            <a className="left_arrow" href="#"><img src="img/icons/arrow_left_32.png" /></a>
+                            <a className="right_arrow" href="#"><img src="img/icons/arrow right_32.png"/></a>
+                            </div>
+                            
+                            <div className="main-slider-gallery-photos">
+                            <section className="main-slider-gallery-photos-container">
+                                    <img src="img/banner/fatamorgana.jpg" />
+                                   
+                                    <img src="img/banner/barocco.JPG" />
+                                    <img src="img/banner/zimowa_fala.jpg" />
+                                    <img src="img/banner/fatamorgana.jpg" />
+                                    <img src="img/banner/barocco.JPG" />
+                                    <img src="img/banner/zimowa_fala.jpg" />
+                            </section>
                             </div>
                         </div>
 

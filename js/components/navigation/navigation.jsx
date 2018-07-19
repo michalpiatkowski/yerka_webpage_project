@@ -44,9 +44,11 @@ class Navigation extends React.Component {
                                     </li>
                                     
                                     <li><Link to='/contact'>Contact</Link></li>
-                                    <li><button>PL</button> <button>ENG</button></li>
-                                </ul>
-                                                            
+                                       <li className="flags"> 
+                                    <button><img src="img/icons/united-states-of-america_24.png"/></button>
+                                    <button><img src="img/icons/poland_24.png"/></button>
+                                </li>
+                                    </ul>                     
                             </div>
                         </div>
                     </div> 

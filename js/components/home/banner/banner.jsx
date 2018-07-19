@@ -1,106 +1,67 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {slides} from './slides.js'
+
+console.log(slides)
 
 class MainBanner extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            positionLeft: 0,
+            slidesNumber: slides.length,
+            counter : 0
+        }
+    }
 
+    componentDidMount () {
+        this.intervalId = setInterval (()=>{
+            if(this.state.counter >= slides.length - 1) {
+                clearInterval( this.intervalId)
+            } else {
+                this.setState({
+                    positionLeft: this.state.positionLeft - 1200,
+                    counter: this.state.counter + 1
+                })
+            }
+          
+        }, 5000)
+    }
 
     render() {
+        const styleObj = {
+            left: this.state.positionLeft,
+            width: slides.length * 1200
+        }
 
-        /*
-        let mainSlider = document.querySelector(".main-banner");
-        let slides = mainSlider.querySelectorAll(".main-banner-slide");
-        let firstSlide = mainSlider.querySelector(".main-banner-slide-first");
-        let secondSlide = mainSlider.querySelector(".main-banner-slide-second");
-        let thirdSlide = mainSlider.querySelector(".main-banner-slide-third");
-        let interval = null;
-        let delay = 5000;
-        let currentSlide = 0;
-
-        let nextSlideTimeout = function() {
-            timer = setTimeout(function() {
-                firstSlide.click();
-            }, delay);
-        };
-
-        var prevSlide = function() {
-            for (var i = 0; i < slides.length; i++) {
-                slides[i].classList.remove('banner-slide--active');
-            }
-            currentSlide--;
-
-            if (currentSlide < 0) {
-                currentSlide = slides.length - 1;
-            }
-
-            slides[currentSlide].classList.add('banner-slide--active');
-
-            clearTimeout(interval);
-            nextSlideTimeout();
-            };
-
-            var nextSlide = function() {
-            for (var i = 0; i < slides.length; i++) {
-                slides[i].classList.remove('banner-slide--active');
-            }
-
-            currentSlide++;
-
-            if (currentSlide > slides.length - 1) {
-                currentSlide = 0;
-            }
-
-            slides[currentSlide].classList.add('banner-slide--active');
-
-            clearTimeout(interval);
-            nextSlideTimeout();
-            };
-
-            nextSlideTimeout();
-
-            prev.addEventListener('click', prevSlide);
-            next.addEventListener('click', nextSlide);
-            ;
+       
         
 
-*/
-
-        return <div className="main-banner">
-                    <div className="container">
-
-                        <div className="main-banner-slide-first main-banner-slide banner-slide--active">
-                            <a className="banner-slider-first-link" href="./pages/about_yerkaland.html">
-                                <div className="banner-slider banner-slider-first">
-                                    
-                                    
-                                    <h1>Lorem ipsum</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien non mauris posuere ullamcorper sit amet a magna. Nullam sapien eros, tempus ut eros in, aliquam gravida nisl.</p>
+        const slidesElem = slides.map( (elem,i ) => {
+        const url = {
+                backgroundImage: `url(${elem.src})`
+            }
+            return  <div key={i} 
+                        className="main-banner-slide-first main-banner-slide banner-slide--active" 
+                        style={url}
                         
-                                </div>
-                            </a>
-                        </div> 
-
-                        <div className="main-banner-slide-second main-banner-slide">
-                            <a className="banner-slider-second-link" href="./pages/paintings.html">
-                                <div className="banner-slider banner-slider-second">
-                                    
-                                    <h1>Lorem ipsum</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien non mauris posuere ullamcorper sit amet a magna. Nullam sapien eros, tempus ut eros in, aliquam gravida nisl.</p>
-                                    
-                                </div>
-                            </a>
+                        >
+                    <a className="banner-slider-first-link" href={elem.link}>
+                        <div className="banner-slider banner-slider-first">
+                     
+                          
+                            <h1>{elem.header}</h1>
+                        
+                
                         </div>
+                    </a>
+            </div> 
+        })
 
-                        <div className="main-banner-slide-third main-banner-slide">
-                            <a className="banner-slider-third-link" href="./pages/paintings.html">
-                                <div className="banner-slider banner-slider-third">
-                                    
-                                    <h1>Lorem ipsum</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien non mauris posuere ullamcorper sit amet a magna. Nullam sapien eros, tempus ut eros in, aliquam gravida nisl.</p>
-                                    
-                                </div>
-                            </a>
-                        </div>
 
+        return <div className="main-banner container">
+                    <div className="main-banner-banner" style={styleObj}>
+                    {slidesElem}
                     </div>
                 </div>
             }

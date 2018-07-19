@@ -9,43 +9,43 @@ class Pastels extends React.Component {
         <div className="paintings-text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sapien non mauris posuere ullamcorper sit amet a magna. Nullam sapien eros, tempus ut eros in, aliquam gravida nisl.</p>
         </div>
-        <div className="paintings-images">
-                <div className="gallery cf">
-                        <div>
-                        <img src="../img/banner/fatamorgana.jpg" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/zimowa_fala.jpg" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/barocco.JPG" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/fatamorgana.jpg" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/zimowa_fala.jpg" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/barocco.JPG" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/fatamorgana.jpg" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/zimowa_fala.jpg" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/barocco.JPG" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/fatamorgana.jpg" />
-                        </div>
-                        <div>
-                        <img src="../img/banner/zimowa_fala.jpg" />
-                        </div>
+        <div className="pastels-images">
+                <div className="pastels-gallery">
                         <div>
                           <img src="../img/banner/barocco.JPG" />
+                        </div>
+                        <div>
+                          <img src="../img/banner/fatamorgana.jpg" />
+                        </div>
+                        <div>
+                          <img src="../img/banner/zimowa_fala.jpg" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/barocco.JPG" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/fatamorgana.jpg" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/zimowa_fala.jpg" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/barocco.JPG" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/fatamorgana.jpg" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/zimowa_fala.jpg" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/barocco.JPG" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/fatamorgana.jpg" />
+                        </div>
+                        <div>
+                        <img src="../img/banner/zimowa_fala.jpg" />
                         </div>
                       </div>
                       
@@ -53,5 +53,6 @@ class Pastels extends React.Component {
     </div>
     }
 }
+
 
 export {Pastels}

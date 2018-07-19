@@ -18,8 +18,9 @@ h1 {
 }
 
 p {
+    margin: 25px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 a {
@@ -92,7 +93,7 @@ a:hover{
     background-color: white;
     padding: 4px 18px;
     color: black;
-    border-radius: 50%;
+    //border-radius: 50%;
   }
   
   @media all and (max-width: 530px) {
@@ -164,14 +165,50 @@ a:hover{
         display:block;
         color:#000;
         text-decoration:none;
-        padding:0 5px;
+        padding: 0 5px;
     }
   }
 
+.flags {
+    button {
+    border: 0px;
+    margin: 5px;
+    }
+}
 // -------- główny slider ------------
 
 .main-banner {
+    width:100%;
+    max-width: 1200px;
+    overflow: hidden;
     
+
+.main-banner-banner {
+    position: relative;
+    transition: 1s;
+   display:flex;
+
+    
+    .main-banner-slide {
+        border: 2px solid red;
+        display: flex;
+        width: 100%;
+        
+        // img {
+        //     height:auto;
+        //     width: 100%;
+        //     }
+
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 35px;
+            color: orange;
+        }
+        
+    }
+}
 }
 
 .banner-slider {
@@ -179,24 +216,12 @@ a:hover{
     
     height: 43em;
     width: 100%;
-    padding: 25px;
-    
-    
-    h1 {
-        margin-top: 40%;
-        font-size: 35px;
-        color: white;
-    }
-    p {
-        
-        font-size: 18px;
-        color: white;
-    }
+    //padding: 25px;
 }
 
 .banner-slider-first{
-    background: linear-gradient(transparent, black), url("../img/banner/zimowa_fala.jpg") no-repeat; 
-    background-size: cover;
+    //background: linear-gradient(transparent, black), url("../img/banner/zimowa_fala.jpg") no-repeat; 
+    //background-size: cover;
     //background-image: url("../img/banner/zimowa_fala.jpg");
    // background-repeat: no-repeat;
     //background-size: cover;
@@ -222,16 +247,15 @@ a:hover{
 } 
     */
 
-
 .banner-slider-second {
-    background: linear-gradient(transparent, black), url("../img/banner/barocco.jpg") no-repeat;
-    background-size: cover;
+    //background: linear-gradient(transparent, black), url("../img/banner/barocco.jpg") no-repeat;
+    //background-size: cover;
     
 }
 
 .banner-slider-third {
-    background: linear-gradient(transparent, black), url("../img/banner/fatamorgana.jpg") no-repeat;
-    background-size: cover;
+    //background: linear-gradient(transparent, black), url("../img/banner/fatamorgana.jpg") no-repeat;
+   // background-size: cover;
     
 }
 
@@ -247,9 +271,9 @@ a:hover{
     //position: absolute;
     padding: 25px;
     margin-top: 20px;
-    height: 15em;
+    height: 30em;
     width: 100%;
-    border: 2px solid black;
+    //border: 2px solid black;
     
 }
 
@@ -257,6 +281,7 @@ a:hover{
     font-size: 28px;
 }
 .main-slider-news-arrows {
+    text-align: right;
 
 }
 .main-slider-news-photos{
@@ -269,7 +294,7 @@ a:hover{
     //position: absolute;
     padding: 25px;
     margin-top: 20px;
-    height: 15em;
+    height: 30em;
     width: 100%;
     //border: 2px solid black;
 }
@@ -283,6 +308,33 @@ a:hover{
 .main-slider-gallery-photos { 
     
 }
+
+.main-slider-gallery-photos {
+    display: flex;
+    
+    flex-direction: row;
+  .main-slider-gallery-photos-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: 15em;
+    white-space: nowrap;
+    img {
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    img:hover {
+        filter: brightness(0.5);
+        transition: 1s;
+    }
+    p{
+        color: white;
+    }
+  }
+}
+
+//-------------footer ----------------
 
 .page-footer {
     background-color: white;
@@ -310,7 +362,8 @@ a:hover{
     padding: 25px;
     height: 450px;
     width: 50%;
-    border: 3px solid black;
+    margin: 0 auto;
+    //border: 3px solid black;
     text-align: center;
     line-height: 1.8em;
     //display: flex;
@@ -355,6 +408,7 @@ a:hover{
 
 .gallery {
     width: 640px;
+    //width: 90%;
     margin: 0 auto;
     padding: 5px;
     background: #fff;
@@ -362,12 +416,15 @@ a:hover{
   }
   
   .gallery > div {
+    //display:flex;
     position: relative;
     float: left;
     padding: 5px;
   }
   
   .gallery > div > img {
+    //display: flex;
+    //flex-wrap: wrap-reverse;  
     display: block;
     width: 200px;
     transition: .1s transform;
@@ -393,22 +450,29 @@ a:hover{
     clear: both;
   }
   
-  
-  .main-slider-gallery-photos {
-    display: flex;
+  //---- pastels gallery
+
+
+.pastels-gallery {
+    width: 90%;
     
-    flex-direction: row;
-  .main-slider-gallery-photos-container{
-    overflow-x: scroll;
-    overflow-y: hidden;
-    width: 100%;
-    height: 150px;
-    white-space: nowrap;
-    img {
-        padding: 8px;
-        width: 160px;
-        height: 160px;   
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+      img {
+          width: 200px;
+          height: 200px;
+          //display: flex;
+          padding: 5px;
+      }
   }
-}
-  
+  .pastels-gallery > div:hover {
+    z-index: 1;
+  }
+
+  .pastels-gallery > div:hover > img {
+    transform: scale(2,2);
+    transition: .3s transform;
+  }
