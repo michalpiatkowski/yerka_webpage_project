@@ -13,62 +13,62 @@ class Pastels extends React.Component {
         <div className="pastels-images">
                 <div className="pastels-gallery">
                     <div>
-                        <img src="../img/pastels/żywopłoty.jpg" />
+                        <img src="./img/pastels/żywopłoty.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/hydroterapia.jpg" />
+                        <img src="./img/pastels/hydroterapia.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/gameboy.jpg" />
+                        <img src="./img/pastels/gameboy.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/fabrykazieleni.jpg" />
+                        <img src="./img/pastels/fabrykazieleni.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/enclave.jpg" />
+                        <img src="./img/pastels/enclave.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/aleja_sów.jpg" />
+                        <img src="./img/pastels/aleja_sów.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/applemania.JPG" />
+                        <img src="./img/pastels/applemania.JPG" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/autumn_at_madera.jpg" />
+                        <img src="./img/pastels/autumn_at_madera.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/bardzotanielinie.jpg" />
+                        <img src="./img/pastels/bardzotanielinie.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/country_wolves.jpg" />
+                        <img src="./img/pastels/country_wolves.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/dragons_breath.jpg" />
+                        <img src="./img/pastels/dragons_breath.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
                     <div>
-                        <img src="../img/pastels/dżungla.jpg" />
+                        <img src="./img/pastels/dżungla.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                     </div>
