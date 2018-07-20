@@ -9,6 +9,7 @@ class MainBanner extends React.Component {
         super(props);
         this.state = {
             positionLeft: 0,
+            positionTop: 0,
             slidesNumber: slides.length,
             counter : 0
         }
@@ -17,21 +18,27 @@ class MainBanner extends React.Component {
     componentDidMount () {
         this.intervalId = setInterval (()=>{
             if(this.state.counter >= slides.length - 1) {
-                clearInterval( this.intervalId)
+                //clearInterval( this.intervalId)
+                this.setState({
+                    counter: 0,
+                    positionTop: 0,
+                })
             } else {
                 this.setState({
-                    positionLeft: this.state.positionLeft - 1200,
-                    counter: this.state.counter + 1
+                    //positionLeft: this.state.positionLeft - 1200,
+                    counter: this.state.counter + 1,
+                    positionTop: this.state.positionTop - 600,
                 })
             }
           
-        }, 5000)
+        }, 5500)
     }
 
     render() {
         const styleObj = {
-            left: this.state.positionLeft,
-            width: slides.length * 1200
+            //left: this.state.positionLeft,
+            top: this.state.positionTop,
+            //width: slides.length * 1200
         }
 
        

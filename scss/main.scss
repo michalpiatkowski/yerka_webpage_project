@@ -51,7 +51,8 @@ a:hover{
     height: 80px;
     font-weight: 400;
     font-size: 14px;
-    //position: relative;
+    position: relative;
+    z-index: 9999;
 }
 
 .page-logo {
@@ -183,42 +184,48 @@ a:hover{
     width:100%;
     max-width: 1200px;
     overflow: hidden;
+    // padding-bottom: 53%;
+    height: 600px;
     
-
+    
 .main-banner-banner {
     position: relative;
     transition: 1s;
-    display:flex;
+    // display:flex;
+    width:100%;
 
     
     .main-banner-slide {
         //border: 2px solid red;
-        display: flex;
         width: 100%;
-        
-         img {
-            height:auto;
-             width: 100%;
-             background-size: contain;
-             }
+        height: 600px;
+        // padding-bottom: 52.6%;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: 0px 40%;
+        float: left;
 
         h1 {
-            position: absolute;
-            top: 56%;
-            left: 50%;
-            font-size: 35px;
-            color: orange;
+            color: white;
+            margin-top: 13.5em;
+            // position: absolute;
+            // top: 56%;
+            // left: 50%;
+            // font-size: 35px;
+            // color: orange;
             }     
         }
     }
 }
 
-.banner-slider {
-    //position: absolute;
-    height: 43em;
-    width: 100%;
-    //padding: 25px;
-}
+// .banner-slider {
+//     //position: absolute;
+//     height: 43em;
+//     width: 100%;
+//     max-width:1200px;
+//     float: left;
+//     //padding: 25px;
+// }
 
 .banner-slider-first{
     //background: linear-gradient(transparent, black), url("../img/banner/zimowa_fala.jpg") no-repeat; 
@@ -294,12 +301,14 @@ a:hover{
             margin: 0 auto;
             color: grey;
             //display: none;
+            font-family: 'Noto Serif', serif;
         }
         p {
             font-size: 16px;
             text-align: center;
             margin: 0 auto;
             color: grey;
+            font-family: 'Noto Serif', serif;
         }
         img{
             height: 300px;
@@ -363,7 +372,7 @@ a:hover{
 .main-slider-gallery {
     //position: absolute;
     padding: 25px;
-    margin-top: 50px;
+    margin-top: 90px;
     height: 25em;
     width: 100%;
     //border: 2px solid black;
@@ -502,7 +511,6 @@ a:hover{
         margin-left: -20px;
     }
 
-
     .about-yerkaland-photo-last {
         padding: 25px;
         width: 20em;
@@ -567,7 +575,7 @@ a:hover{
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     
 
       img {

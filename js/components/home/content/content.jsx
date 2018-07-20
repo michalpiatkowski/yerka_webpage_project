@@ -44,12 +44,16 @@ class MainContent extends React.Component {
                             <div className="main-slider-gallery-arrows"></div>
                             <div className="main-slider-gallery-photos">
                             <section className="main-slider-gallery-photos-container">
+                                    <img src="img/paintings/podwojne_zycie_2.jpg" />
                                     <img src="img/banner/zimowa_fala.jpg" />
+                                    <img src="img/paintings/partia_na_wyspie.jpg" />
                                     <img src="img/banner/fatamorgana.jpg" />
+                                    <img src="img/paintings/partia_na_rafie.jpg" />
                                     <img src="img/banner/barocco.JPG" />
-                                    <img src="img/banner/zimowa_fala.jpg" />
-                                    <img src="img/banner/fatamorgana.jpg" />
-                                    <img src="img/banner/barocco.JPG" />
+                                    <img src="img/paintings/pod_pejzażem.jpg" />
+                                    <img src="img/paintings/perłowa_zatoka66.jpg" />
+                                    <img src="img/paintings/odnalezienie_sw_graala.jpg" />
+                                    <img src="img/paintings/nie_trzaskac_drzwiami.jpg" />
                             </section>
                         </div>
                     </div>
