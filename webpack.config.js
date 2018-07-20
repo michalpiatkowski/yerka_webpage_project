@@ -19,12 +19,12 @@ module.exports = function(env) {
     module: {
       rules: [
         {
-          test: /\.jsx$/,
-          exclude: /node_modules/,
+          test: /\.(jpg|jpeg|gif|png|csv)$/,
           use: {
-            loader: 'babel-loader',
+            loader: 'file-loader?outputPath=images/',
             options: {
-              presets: ['es2015', "stage-2", "react"]
+              name: '[name].[ext]',
+              useRelativePath: true
             }
           }
         },

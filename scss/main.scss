@@ -280,11 +280,14 @@ a:hover{
             height: 300px;
             width: 100%;
             padding: 10px;
-            
+            z-index: 2;
             }
         img:hover {
-            filter: grayscale(100%);
+            //filter: grayscale(100%);
             transition: 1s;
+            transform: scale(1.2, 1.2);
+            z-index: 9;
+            filter: hue-rotate(12deg) brightness(1.2) contrast(1.2)
             }
         }
     }
