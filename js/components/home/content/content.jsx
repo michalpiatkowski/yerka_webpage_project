@@ -49,7 +49,7 @@ class MainContent extends React.Component {
                                     <img src="img/paintings/partia_na_wyspie.jpg" />
                                     <img src="img/banner/fatamorgana.jpg" />
                                     <img src="img/paintings/partia_na_rafie.jpg" />
-                                    <img src="img/banner/barocco.JPG" />
+                                    <img src="img/banner/barocco.jpg" />
                                     <img src="img/paintings/pod_pejzażem.jpg" />
                                     <img src="img/paintings/perłowa_zatoka66.jpg" />
                                     <img src="img/paintings/odnalezienie_sw_graala.jpg" />
