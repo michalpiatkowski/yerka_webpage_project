@@ -283,7 +283,7 @@ a:hover{
             
             }
         img:hover {
-            filter: opacity(0.3);
+            filter: grayscale(100%);
             transition: 1s;
             }
         }
