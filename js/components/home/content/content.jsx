@@ -22,14 +22,14 @@ class MainContent extends React.Component {
                             <div className="main-slider-news-photos">
                             <section className="main-slider-news-photos-container">
                            
-                                    <div className="img-news">
+                                    <div className="img-news img-news-first">
                                     <img src="img/banner/barocco.JPG" />
                                     <h3>Lorem ipsum</h3>
                                     <h4>Lorem ipsum</h4>
                                     <p>15 07 1410</p>
                                     </div>
                                   
-                                    <div className="img-news">
+                                    <div className="img-news img-news-second">
                                     <img src="img/banner/fatamorgana.jpg" />
                                     <h3>Lorem ipsum</h3>
                                     <h4>Lorem ipsum</h4>

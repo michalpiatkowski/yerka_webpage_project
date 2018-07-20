@@ -112,7 +112,7 @@ a:hover{
                 color:black;
             }
         }
-  }
+    }
 
   .page-nav-menu {
     list-style-type: none;
@@ -207,7 +207,8 @@ a:hover{
 
         h1 {
             color: white;
-            margin-top: 13.5em;
+            margin-top: 8.7em;
+            font-size: 60px;
             // position: absolute;
             // top: 56%;
             // left: 50%;
@@ -227,43 +228,6 @@ a:hover{
 //     //padding: 25px;
 // }
 
-.banner-slider-first{
-    //background: linear-gradient(transparent, black), url("../img/banner/zimowa_fala.jpg") no-repeat; 
-    //background-size: cover;
-    //background-image: url("../img/banner/zimowa_fala.jpg");
-   // background-repeat: no-repeat;
-    //background-size: cover;
-    //background-color: #000;
-    p {
-        //display: none;
-    }
-}
-/*
-.banner-slider:hover {
-    //transition: 1s;
-    //opacity: 0.6;
-    //background: linear-gradient(transparent, black), url("../img/banner/zimowa_fala.jpg") no-repeat; 
-    //background-size: cover; 
-    
-    p, h1 {
-        //opacity: 1;
-        font-size: 30px;
-        color: white;
-        transition: 1s;
-        display: block;
-    }
-} 
-    */
-
-.banner-slider-second {
-    //background: linear-gradient(transparent, black), url("../img/banner/barocco.jpg") no-repeat;
-    //background-size: cover;
-}
-
-.banner-slider-third {
-    //background: linear-gradient(transparent, black), url("../img/banner/fatamorgana.jpg") no-repeat;
-   // background-size: cover; 
-}
 
 //------- główna treść ----------
 
@@ -295,6 +259,7 @@ a:hover{
 .main-slider-news-photos-container {
     height: 25em;
     display: flex;
+    
     .img-news {
         h3, h4 {
             text-align: center;
@@ -311,15 +276,28 @@ a:hover{
             font-family: 'Noto Serif', serif;
         }
         img{
+            
             height: 300px;
             width: 100%;
             padding: 10px;
+            
             }
         img:hover {
             filter: opacity(0.3);
             transition: 1s;
             }
         }
+    }
+    @media (max-width: 700px) {
+        .main-slider-news-photos-container {
+            //height: 25em;
+            display: flex;
+            flex-wrap: wrap;
+            .img-news-second {
+                display: none;
+            }
+        }   
+        //flex-wrap: wrap;
     }
 
 /*
