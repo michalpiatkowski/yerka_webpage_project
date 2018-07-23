@@ -50,8 +50,8 @@ class MainContent extends React.Component {
                                     <img src="img/banner/fatamorgana.jpg" />
                                     <img src="img/paintings/partia_na_rafie.jpg" />
                                     <img src="img/banner/barocco.jpg" />
-                                    <img src="img/paintings/pod_pejzażem.jpg" />
-                                    <img src="img/paintings/perłowa_zatoka66.jpg" />
+                                    <img src="img/paintings/pod_pejzazem.jpg" />
+                                    <img src="img/paintings/perlowa_zatoka66.jpg" />
                                     <img src="img/paintings/odnalezienie_sw_graala.jpg" />
                                     <img src="img/paintings/nie_trzaskac_drzwiami.jpg" />
                             </section>

@@ -28,7 +28,7 @@ class Paintings extends React.Component {
                         <br/>
                         </div>
                         <div>
-                        <img src="./img/paintings/lądowanie_miasta.jpg" />
+                        <img src="./img/paintings/ladowanie_miasta.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                         </div>
@@ -43,7 +43,7 @@ class Paintings extends React.Component {
                         <br/>
                         </div>
                         <div>
-                        <img src="./img/paintings/narodziny_życia-66.jpg" />
+                        <img src="./img/paintings/narodziny_zycia-66.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                         </div>
@@ -73,12 +73,12 @@ class Paintings extends React.Component {
                         <br/>
                         </div>
                         <div>
-                        <img src="./img/paintings/perłowa_zatoka66.jpg" />
+                        <img src="./img/paintings/perlowa_zatoka66.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                         </div>
                         <div>
-                        <img src="./img/paintings/pod_pejzażem.jpg" />
+                        <img src="./img/paintings/pod_pejzazem.jpg" />
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                         </div>
