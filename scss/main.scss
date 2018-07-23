@@ -234,7 +234,7 @@ a:hover{
     //position: relative;
 }
 
-// -------- SLIDER: newsy --------------
+// -------- SLIDER: news --------------
 
 .main-slider-news {
     //position: absolute;
@@ -258,7 +258,6 @@ a:hover{
 .main-slider-news-photos-container {
     height: 25em;
     display: flex;
-    
     .img-news {
         h3, h4 {
             text-align: center;
@@ -274,7 +273,7 @@ a:hover{
             color: grey;
             font-family: 'Noto Serif', serif;
         }
-        img{
+        img {
             
             height: 300px;
             width: 100%;
@@ -412,7 +411,7 @@ a:hover{
     }
 }
 
-.contact-form  {
+.contact-form {
     padding: 25px;
     height: 450px;
     width: 50%;
@@ -478,7 +477,6 @@ a:hover{
         float: left;
         margin-top: -21px;
         margin-left: -20px;
-        
     }
 
     .about-yerkaland-photo-right {
@@ -549,7 +547,6 @@ a:hover{
   }
   */
   //---- pastels gallery
-
 
 .pastels-gallery {
     width: 90%;
