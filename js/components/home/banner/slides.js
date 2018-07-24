@@ -11,7 +11,7 @@ const slides = [
 
     {
         id : 2, 
-        src : "img/main_slider/przerwany_piknik.JPG",
+        src : "img/main_slider/przerwany_piknik.jpg",
         header : "Lorem ipsum 2",
         link : "./pages/paintings.html"
     },
