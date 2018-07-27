@@ -102,6 +102,16 @@ class Paintings extends React.Component {
                         <h4>Lorem ipsum (1410)</h4>
                         <br/>
                         </div>
+                        <div>
+                        <img src="https://lh3.googleusercontent.com/KZ7EXX0pAt_QtdrNpNO3CJs6M1vkBwMEx3ZLCUOHgDvo7Yj9hBPP_hx9bGmVmaJXm4WlQVdSgNZZ1DZap8oTcUDZU4EzP8rApcw0VS8rPmuDfp9xtS8y6JFOw-2cD6-mF_Ry8WWcUyGF6UZ_RbxWTYtXDXKDvENso8zd5WA2Bg__esJ7QR-nYdB9VdxHuAqGqqls8RJUt7oCUgsSdXwbMMKyllJY9_ncLeY-kKAucP2PLwcLUYiBVhZGkg_yGzFzje8jylIbd2-POE5NUlQjU7xZb3RsxH9HGFKfaBbLMD-SUgY41kw3MBmVAqez2_-bZgV7aBybkSnsnea3hkTCBREPRhYW-PXpcTEPZV-G1XEaJMrE52n1ekhARNQS9DzvOGJ5aYPz6c-2LJdmdrW3HYd1KcXHX17Qom-Ab0e-3TSeXdi9p55CTr3infd4PiZuSMANS8cBIMwwCuOn0qQokjKsfmg8wdRqPSWeqktKEyfXc0xZRrPrSCQDFPpMC9imSEukmK49sfsoAgjgUWZDQW0itQQSP8JnbvV0dSNSgff9-dt-y0-qW9HvczegvOE2VXIjiX6ToYG48UEAODRPvDzYnmxQjiJ3uHg-ipx3HsyUJ0emyMWAheE5Z4hbL11H3wC-X6lJo9k92DnsVv_vUlbqoaw74DTc=w562-h500-no" />
+                        <h4>Lorem ipsum (1410)</h4>
+                        <br/>
+                        </div>
+                        <div>
+                        <img src="https://lh3.googleusercontent.com/ZUAnwCQ5BNV0woIgv1TT3J5wkn7lSIKrTT_Ctjk7OtD8txYyPwRMoVYAWZ8uAC7EVxFEGPC0HW5bOa4ztQ5hv_SpF9qvdqmrKHahNvrzoIADqGFDm0WTJznZ0tpjZbq9RqvDj3d-bZDyKb9Rdw24p9y6bA68qBI-TYCLIlGL529icUgFMBUb_Z75CJvUo9EoLqKi0A5TzntkJcNUNOZQb6RXClVKLbjoTv76xR96WBKyQqz5adyT8Zgko6JOLpp552Dt9oprgnOTCvEcbot3YUT0KZpCgiAQjkXrakjBmb65ltzF4rMGtMBAGiezdOWed0yk5QdzrDNFefcD1v8--dvJepvkOYFJZ_lWkJV51HOU67zxSRKWEFFfry7UqEwhl1xH-SDcuIWbgQ9J-PaXgBR6Ad6UdIe75I11uocAxuP9AUPjnu3MZlZVoirpoh_eVKrUZrgKoCiMHsC85rrXWE32VbN_eM7MurhWMdjziUXKUD2SLmnOYFKCCpS9wnX5jqM43ngctdH7C2ETD-vsUitH9XC6pBMs27Kt4y19LRaC1sDy8tCU6k6SmHVlouSPd5kJYzSyPChffgh8fph_MDzRvZBNK_1gzz55t63NQOoQiT4uSgFTkdZA94oSLx-RNM-lJdfZl3920_lgbXixyuvBgXcJdto1=w558-h500-no" />
+                        <h4>Lorem ipsum (1410)</h4>
+                        <br/>
+                        </div>
                     </div>
                 </div>
         </div>
