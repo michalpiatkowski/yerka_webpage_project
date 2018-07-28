@@ -2,6 +2,8 @@
 
 Projekt strony internetowej Jacka Yerki - Yerkaland.
 
+Końcowy projekt kursu Coders Lab.
+
 Strona napisana w React.
 
 Wykorzystane technologie:
