@@ -1,5 +1,18 @@
 # yerka_webpage_project
 
-Projekt nowej strony Yerkaland.
+Proposition of Yerkaland's new webpage with Jacek Yerka's paintings gallery. 
 
-W trakcie przygotowania.
+Final project at Coders Lab course.
+
+* HTML5
+
+* CSS3
+
+* JavaScript
+
+* React
+
+* Scss
+
+Preview:
+https://michalpiatkowski.github.io/yerka_webpage_project/#/
