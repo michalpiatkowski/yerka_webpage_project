@@ -37,13 +37,12 @@ a:hover{
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
-    //display: flex;
 }
 
-.page-navigation {
-}
+.page-navigation {}
 
-// ------------- navigation ---------------
+// ------------- navigation -------------------
+
 .page-nav {
     display: flex;
     justify-content: space-between;
@@ -59,18 +58,15 @@ a:hover{
     font-size: 24px;
     font-weight: 400;
     font-family: 'Noto Serif', serif;
-    //text-transform: uppercase;
     text-decoration: none;
     padding: 25px;
 }
 
 .page-nav-list {
     text-transform: uppercase;
-    //position: absolute;
     margin: auto 0;
     padding: 15px;
     ul {
-        //word-spacing: 1em;
         li {
             list-style: none;
             display: inline-block;
@@ -89,32 +85,30 @@ a:hover{
 
 .hamburger {
     display: none;
-    //position: absolute;
     top: 10px;
     left: 10px;
     font-size: 2rem;
     background-color: white;
     padding: 4px 18px;
     color: black;
-    //border-radius: 50%;
-  }
+}
   
   @media all and (max-width: 530px) {
     .hamburger {
       display: block;
     }
-  }
+}
   
-  .page-nav-submenu {
-        li:hover {
-            background-color:grey;
-            a {
-                color:black;
-            }
+.page-nav-submenu {
+    li:hover {
+        background-color:grey;
+        a {
+            color:black;
         }
     }
+}
 
-  .page-nav-menu {
+.page-nav-menu {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -140,7 +134,6 @@ a:hover{
             li {
                 position:relative;
                 background-color: white;
-                //height: 2em;
                 a {
                     border-top:1px solid white;
                 }
@@ -156,7 +149,6 @@ a:hover{
       }
     li:hover {
         background-color:white;
-        //display: block;
       }
     li:hover > a {
         color: grey;
@@ -178,28 +170,24 @@ a:hover{
     margin: 5px;
     }
 }
-// -------- main slider ------------
+
+// ----------- main slider ---------------
 
 .main-banner {
     width:100%;
     max-width: 1200px;
     overflow: hidden;
-    // padding-bottom: 53%;
     height: 600px;
     
     
 .main-banner-banner {
     position: relative;
     transition: 1s;
-    // display:flex;
     width:100%;
 
-    
     .main-banner-slide {
-        //border: 2px solid red;
         width: 100%;
         height: 600px;
-        // padding-bottom: 52.6%;
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: 0px 40%;
@@ -209,30 +197,14 @@ a:hover{
             color: white;
             margin-top: 8.7em;
             font-size: 60px;
-            // position: absolute;
-            // top: 56%;
-            // left: 50%;
-            // font-size: 35px;
             }     
         }
     }
 }
 
-// .banner-slider {
-//     //position: absolute;
-//     height: 43em;
-//     width: 100%;
-//     max-width:1200px;
-//     float: left;
-//     //padding: 25px;
-// }
+//------- main content ----------
 
-
-//------- główna treść ----------
-
-.main-content {
-    //position: relative;
-}
+.main-content {}
 
 // -------- SLIDER: news --------------
 
@@ -242,7 +214,6 @@ a:hover{
     margin-top: 35px;
     height: 25em;
     width: 100%;
-    //border: 2px solid black; 
 }
 
 .main-slider-news-text {
@@ -253,6 +224,7 @@ a:hover{
     text-align: right;
     display: none;
 }
+
 .main-slider-news-photos{}
 
 .main-slider-news-photos-container {
@@ -263,7 +235,6 @@ a:hover{
             text-align: center;
             margin: 0 auto;
             color: grey;
-            //display: none;
             font-family: 'Noto Serif', serif;
         }
         p {
@@ -279,82 +250,33 @@ a:hover{
             width: 100%;
             padding: 10px;
             z-index: 2;
-            }
+        }
         img:hover {
-            //filter: grayscale(100%);
             transition: 1s;
             transform: scale(1.2, 1.2);
             z-index: 9;
             filter: hue-rotate(12deg) brightness(1.2) contrast(1.2)
-            }
         }
     }
+}
+
     @media (max-width: 700px) {
         .main-slider-news-photos-container {
-            //height: 25em;
             display: flex;
             flex-wrap: wrap;
             .img-news-second {
                 display: none;
             }
         }   
-        //flex-wrap: wrap;
     }
-
-/*
-.main-slider-news-photos {
-    display: flex;
-    flex-direction: row;
-
-  .main-slider-news-photos-container {
-    //overflow-x: scroll;
-    //overflow-y: hidden;
-    width: 100%;
-    height: 17em;
-    white-space: nowrap;
-    h4 {
-        color: orangered;
-        margin: -40px 20px;;
-    }
-    
-    img {
-        padding: 10px;
-        width: 375px;
-        height: 200px;
-        img:hover {
-            filter: brightness(0.5);
-            transition: 1s;
-            h4 {
-                color: lime;
-                display: block;
-            }
-            
-        }
-    }
-    /*
-    .img-news {
-        height: 200px;
-        width: 375px;
-        padding: 10px;
-        h4{
-            color: orangered;
-            margin: -33% 35%;
-            //display: none;
-        }
-    }   
-  }
-}
-*/
 
 // ---------- SLIDER: gallery --------------
 
 .main-slider-gallery {
-    //position: absolute;
     padding: 25px;
     margin-top: 90px;
     height: 25em;
     width: 100%;
-    //border: 2px solid black;
 }
 
 .main-slider-gallery-text {
@@ -416,10 +338,8 @@ a:hover{
     height: 450px;
     width: 50%;
     margin: 0 auto;
-    //border: 3px solid black;
     text-align: center;
     line-height: 1.8em;
-    //display: flex;
     p {
         text-align: left;
     }
@@ -500,74 +420,26 @@ a:hover{
     }
 }
 //----------- paintings gallery --------------
-/*
-.gallery {
-    width: 640px;
-    //width: 90%;
-    margin: 0 auto;
-    padding: 5px;
-    background: #fff;
-    //box-shadow: 0 1px 2px rgba(0,0,0,.3);
-  }
-  
-  .gallery > div {
-    //display:flex;
-    position: relative;
-    float: left;
-    padding: 5px;
-  }
-  
-  .gallery > div > img {
-    //display: flex;
-    //flex-wrap: wrap-reverse;  
-    display: block;
-    width: 200px;
-    transition: .1s transform;
-    transform: translateZ(0); /* hack */
-/*
-  }
-  
-  .gallery > div:hover {
-    z-index: 1;
-  }
-  
-  .gallery > div:hover > img {
-    transform: scale(1.7,1.7);
-    transition: .3s transform;
-  }
-  
-  .cf:before, .cf:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  
-  .cf:after {
-    clear: both;
-  }
-  */
 
-  //---------------- pastels gallery ----------------
+
+//---------------- pastels gallery ----------------
 
 .pastels-gallery {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-
       img {
-          //width: 300px;
           height: 200px;
-          //display: flex;
           padding: 5px;
       }
-  }
-  .pastels-gallery > div:hover {
+}
+
+.pastels-gallery > div:hover {
     z-index: 1;
   }
 
-  .pastels-gallery > div:hover > img {
+.pastels-gallery > div:hover > img {
     transform: scale(2.1,2.1);
     transition: 1s transform;
   }
